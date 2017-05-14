@@ -24,6 +24,7 @@ I have made several assumptions in this exercise where the designs did not seem 
 Generally, Grid and List icons are used to switch between list an tiles views of the product but here, based on the screen shtos, i assumed that grid view displays available products while list view displays cart
 
 GridView --> available Products
+
 ListView --> cart
 
 In a Grid view, given that a product can be comprised of more than 1 item and theres no indication that 2 is the maximum amount allowed I have marked up and styled it so a tile can theoretically contain any number.
