@@ -12,8 +12,8 @@ export function getProducts() {
     return dispatch => {
         dispatch(getProductsRequestedAction());
         return database.ref('products').once('value', snap => {
-            // const products = snap.val();                     // to get Products from firebase
-            const products = productsData.products;             // to get data from local json file
+            const products = snap.val();                     // to get Products from firebase
+            // const products = productsData.products;             // to get data from local json file
             dispatch(getProductsFulfilledAction(products))
         })
             .catch((error) => {
