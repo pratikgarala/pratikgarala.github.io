@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
     color: #2C3E50;
+    background-color: #EEE;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,7 +40,7 @@ hr.star-primary {
     border-color: #2C3E50;
 }
 hr.star-primary:after {
-    background-color: white;
+    background-color: #EEE;
     color: #2C3E50;
 }
 
