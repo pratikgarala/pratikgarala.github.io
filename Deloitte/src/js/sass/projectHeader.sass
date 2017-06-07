@@ -1,0 +1,51 @@
+#projectHeader
+  margin: 20px 0
+  .intro-text
+    .projectTitle
+      font-size: 4.75em
+      letter-spacing: 0.2em
+      text-transform: uppercase
+      font-weight: bold
+      color: #ECE9E9
+    .clientName
+      font-size: 1.2em
+      letter-spacing: 0.1em
+      text-transform: uppercase
+      font-weight: bold
+    .tagLine
+      font-size: 1.2em
+      font-style: italic
+    .projectDesc
+      font-size: 1.2em
+      font-weight: bolder
+  .btn
+    padding: 15px
+    font-size: 15px
+    border-color: #ECE9E9
+    border-radius: 0px
+    text-transform: uppercase
+    display: inline-block
+    vertical-align: middle
+    backface-visibility: hidden
+    position: relative
+    height: 50px
+    background-color: transparent
+    color: #ECE9E9
+    margin-top: 30px
+    letter-spacing: 0.2em
+    font-weight: bold
+    &:hover
+      color: #0f0f0f
+      background-color: #ECE9E9
+
+.btn
+  &:focus, &:active
+    color: #0f0f0f
+    background-color: #ECE9E9
+
+#projectHeader .btn:hover:before
+  transform: scaleX(1)
+
+.btn
+  &:focus:before, &:active:before
+    transform: scaleX(1)
