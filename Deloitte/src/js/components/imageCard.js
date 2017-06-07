@@ -14,7 +14,7 @@ const ImageCard = (props) => (
                     <span className="fa fa-2x fa-plus"></span>
                 </div>
             </a>
-            <img src={require("../img/" + props.src)} alt={props.alt}/>
+            <img src={require("../../img/" + props.src)} alt={props.alt}/>
         </div>
         <div className="modal fade image-modal" id={"imgModal" + props.src.substring(0,props.src.length - 4)} tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-content">

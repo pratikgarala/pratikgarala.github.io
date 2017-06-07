@@ -16,7 +16,7 @@ import Footer from '../components/footer';
 
 require('jquery');
 require('bootstrap-webpack');
-require('../sass/main.sass');
+require('../../sass/main.sass');
 
 // put all the images in the img folder and provide the image name in src and its alternative in alt
 //create a array of all the slider images
@@ -100,7 +100,7 @@ const App = () => (
                     <InfoSection titleCss="infoTitleBlack" className="text-justify" title="Blurb" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut convallis massa, at blandit justo. Vestibulum maximus dui ac massa ultrices interdum. Morbi pellentesque aliquam odio a lacinia. Nulla at gravida eros, quis blandit ante. Sed convallis dolor vitae nisl aliquet pellentesque. Vivamus maximus quis diam sit amet blandit. Duis id malesuada ipsum. Curabitur ullamcorper felis et felis mollis ultricies. Morbi lobortis ipsum id risus gravida, et pharetra justo vestibulum."/>
                 </div>
                 <div className="col-lg-6">
-                    <img src={require("../img/slide1.jpg")} />
+                    <img src={require("../../img/slide1.jpg")} />
                 </div>
             </div>
         </div>

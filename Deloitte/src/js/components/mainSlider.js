@@ -29,13 +29,13 @@ const MainSlider = (props) => (
                         if (index == 0)
                             return (
                                 <div key={index} className="item active">
-                                    <img src={require('../img/' + image.src)} alt={image.alt} />
+                                    <img src={require('../../img/' + image.src)} alt={image.alt} />
                                 </div>
                             );
                         else
                             return (
                                 <div key={index} className="item">
-                                    <img src={require('../img/' + image.src)} alt={image.alt} />
+                                    <img src={require('../../img/' + image.src)} alt={image.alt} />
                                 </div>
                             );
                     })}

@@ -7,7 +7,7 @@ import React from 'react';
 // Project component
 const Project = (props) => (
     <div className="col-lg-3 project text-center">
-        <img src={require("../img/" + props.src)} alt={props.alt}/>
+        <img src={require("../../img/" + props.src)} alt={props.alt}/>
         <span className="projectTitle">{props.title}</span>
         <br />
         <span className="projectTagLine">{props.tagLine}</span>
