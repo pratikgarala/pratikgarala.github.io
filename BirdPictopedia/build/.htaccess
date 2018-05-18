@@ -18,3 +18,10 @@ RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^video$ "https\:\/\/youtu\.be\/guvo3BnJ_jY" [R=301,L]
 
+
+# Don't rewrite files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+# Rewrite everything else to index.html to allow html5 state links
+RewriteRule ^ index.html [L]
