@@ -37,7 +37,7 @@
     "less-loader": "^2.2.3",
     "mapbox-gl": "^0.34.0",
     "node-libs-browser": "^1.0.0",
-    "node-sass": "^3.8.0",
+    "node-sass": "^4.14.1",
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
     "react-bootstrap": "^0.30.7",
